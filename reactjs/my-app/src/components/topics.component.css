@@ -1,0 +1,95 @@
+.icon1 {
+    background: lightsalmon;
+    transition: transform .2s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .icon2 {
+    background: cyan;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .icon3 {
+    background: lightpink;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 30%;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .icon4 {
+    background: yellow;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 0%;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .icon1:hover {
+     transform: scale(1.1);
+  }
+  
+  .icon2:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon3:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon4:hover {
+    transform: scale(1.1);
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contain > * {
+    margin: 40px;
+  }

@@ -1,0 +1,23 @@
+.company{
+    margin-top: 5px;
+    width: 70%;
+    height: 50%;
+    cursor: pointer;
+    animation: float 3s ease-in-out infinite;
+}
+ 
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+}
+.table {
+    width: 100%;
+    text-align: center;
+}
