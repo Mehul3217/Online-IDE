@@ -1,0 +1,4 @@
+def bfs:
+  return 2
+def dfs:
+  return 1
