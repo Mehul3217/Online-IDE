@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+
+int solution(vector<int> &A)
+{
+    
+    map<int,priority_queue<int>>mp;
+    int n=A.size();
+    for(int i=0;i<n;i++)
+        {
+            
+           int cnt=0,temp=A[i];
+           while(temp>0)
+           {
+               cnt+=temp%10;
+               temp/=10;
+           }
+           mp[cnt].push(x);
+        }
+        int ans=-1;
+       for(int i=0;i<=90;i++)
+       {
+           if(mp[i].size()>1)
+           {
+               priority_queue<int>po=mp[i];
+               int y=po.top();
+               po.pop();
+               y+=po.top();
+               ans=max(ans,y);
+           }
+       }
+       return ans;
+
+}
